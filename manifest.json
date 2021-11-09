@@ -1,0 +1,16 @@
+{
+    "name": "Productive YouTube",
+    "description": "Google Chrome extension to get rid of YouTube recommendations",
+    "version": "0.1",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": ["https://*.youtube.com/*"],
+            "js": ["hideElements.js"]
+        },
+        {
+            "matches": ["https://*.youtube.com/", "https://*.youtube.com/feed/explore"],
+            "js": ["restrictAccess.js"]
+        }
+    ]
+}
