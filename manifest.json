@@ -12,5 +12,13 @@
             "matches": ["https://*.youtube.com/", "https://*.youtube.com/feed/explore"],
             "js": ["/js/restrictAccess.js"]
         }
-    ]
+    ],
+	"action": {
+		"default_icon": {
+			"128": "/icons/icon.png"
+		}
+	},
+	"icons": {
+		"128": "/icons/icon.png"
+	}
 }
